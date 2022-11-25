@@ -36,6 +36,7 @@ const store = createStore({
 const routes = [
     { path: '/', redirect: '/login' },
     { path: '/login', name: 'Login', component: Login },
+    { path: '/login?', redirect: '/login' },
     { path: '/register', name: 'Register', component: Register },
     { path: '/home', name: 'Home', component: Home },
     { path: '/post', name: 'Post', component: Post},
