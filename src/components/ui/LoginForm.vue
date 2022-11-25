@@ -1,5 +1,5 @@
 <template>
-    <form action="" method="get">
+    <form>
         <div class="text-center mb-3">
             <!-- Username Input -->
             <div class="form-floating mb-3">
@@ -36,7 +36,8 @@
                     if ((users[i].username == this.username) && (users[i].password == this.password)) {
                         this.$router.push("/home");
                     }
-                }        
+                }    
+                this.$router.push("/login");
             }
         }
     }
