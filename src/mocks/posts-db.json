@@ -1,0 +1,14 @@
+{
+    "post": [
+        {
+            "id": 1,
+            "user": "RubenHood",
+            "content": "Buenos días Fuenlabrada"
+        },
+        {
+            "id": 2,
+            "user": "Minerva",
+            "content": "Dame de comé"
+        }
+    ]
+}
