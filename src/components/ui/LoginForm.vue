@@ -36,7 +36,8 @@
                     if ((users[i].username == this.username) && (users[i].password == this.password)) {
                         this.$router.push("/home");
                     }
-                }    
+                }
+                return ;    
             }
         }
     }
